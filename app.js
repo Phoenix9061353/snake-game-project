@@ -64,7 +64,7 @@ myFood.pickANewLocation();
 let myGame;
 let p = 0;
 
-//前行方向
+//鍵盤按鍵Event
 const keyEvent = function (e) {
   if (!e.key.startsWith('Arrow') && e.key !== ' ' && e.key !== 's') return;
   if (e.key === ' ' && p !== 1) {

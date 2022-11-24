@@ -5,6 +5,7 @@
 }
 
 body {
+  font-family: 'Noto Sans TC', sans-serif;
   background-color: black;
   display: flex;
   flex-direction: column;
